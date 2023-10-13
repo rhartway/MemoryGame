@@ -5,4 +5,6 @@ public interface GamePiece {
 	public void setVisible(boolean v);
 	public boolean isVisible();
 	public Character getSymbol();
+	public boolean isMatched();
+	public void markAsMatched();
 }
