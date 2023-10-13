@@ -238,7 +238,6 @@ import java.util.Scanner;
 	            }
 	        } catch (IOException e) {
 	            System.err.println("Error writing to leaderboard file.");
-	            // Handle exceptions when writing to the leaderboard file
 	        }
 	    }
 	    
@@ -281,7 +280,6 @@ import java.util.Scanner;
 
 	        } catch (IOException e) {
 	            System.err.println("Error reading leaderboard files.");
-	            // Handle exceptions when reading the leaderboard files
 	        }
 	    }
 
