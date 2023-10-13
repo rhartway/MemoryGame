@@ -24,12 +24,10 @@ public class CharacterGamePiece implements GamePiece {
 		return this.visible;
 	}
 	
-	@Override
     public boolean isMatched() {
         return matched;
     }
 
-    // Method to set the card as matched
     public void markAsMatched() {
         matched = true;
     }
