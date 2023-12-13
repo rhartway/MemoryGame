@@ -1,4 +1,4 @@
-package edu.wm.cs.cs301.memorygame;
+package edu.wm.cs.cs301.memorygame.model;
 
 public interface GamePiece {
 	public boolean equals(GamePiece other);

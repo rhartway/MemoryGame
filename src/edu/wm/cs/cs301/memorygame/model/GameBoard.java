@@ -1,9 +1,11 @@
-package edu.wm.cs.cs301.memorygame;
+package edu.wm.cs.cs301.memorygame.model;
 
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+
+import edu.wm.cs.cs301.memorygame.model.MemoryGame.DifficultyLevel;
 
 public class GameBoard {
 	

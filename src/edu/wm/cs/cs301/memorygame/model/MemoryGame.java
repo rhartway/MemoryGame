@@ -1,4 +1,4 @@
-package edu.wm.cs.cs301.memorygame;
+package edu.wm.cs.cs301.memorygame.model;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

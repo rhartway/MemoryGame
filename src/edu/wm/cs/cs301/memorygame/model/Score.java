@@ -1,11 +1,11 @@
-package edu.wm.cs.cs301.memorygame;
+package edu.wm.cs.cs301.memorygame.model;
 
 public class Score {
     private String playerName;
     private int turns;
-    private edu.wm.cs.cs301.memorygame.MemoryGame.DifficultyLevel difficulty;
+    private edu.wm.cs.cs301.memorygame.model.MemoryGame.DifficultyLevel difficulty;
 
-    public Score(String playerName, int turns, edu.wm.cs.cs301.memorygame.MemoryGame.DifficultyLevel difficulty2) {
+    public Score(String playerName, int turns, edu.wm.cs.cs301.memorygame.model.MemoryGame.DifficultyLevel difficulty2) {
         this.playerName = playerName;
         this.turns = turns;
         this.difficulty = difficulty2;
@@ -19,7 +19,7 @@ public class Score {
         return turns;
     }
     
-    public edu.wm.cs.cs301.memorygame.MemoryGame.DifficultyLevel getDifficulty() {
+    public edu.wm.cs.cs301.memorygame.model.MemoryGame.DifficultyLevel getDifficulty() {
     	return difficulty;
     }
 }
